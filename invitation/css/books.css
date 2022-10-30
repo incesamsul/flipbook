@@ -7,6 +7,13 @@
   src: url('../fonts/Stempel-Garamond-W01-Roman.woff') format('woff');
 }
 
+
+body{
+	 background:  url('../pics/bg/body_bg.jpg') no-repeat;
+	 background-size: cover;
+  
+}
+
 body, ul, table, form{
 	margin:0;
 	padding:0;
@@ -24,7 +31,7 @@ body, ul, table, form{
 #canvas{
 	width: 960px;
 	height: 600px;
-	margin: 100px auto;
+	margin: 30px auto;
 }
 
 #book-zoom{
@@ -136,6 +143,8 @@ body, ul, table, form{
 	box-shadow:0 0 10px #999;
 }
 
+
+
 .sj-book .page{
 	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
 	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
@@ -167,7 +176,6 @@ body, ul, table, form{
 .sj-book .p3, 
 .sj-book .p21, 
 .sj-book .p22{
-	background-color:white;
 	background-image:url(../pics/test.png) !important;
 }
 
