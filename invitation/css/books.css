@@ -381,3 +381,19 @@ body, ul, table, form{
 	background-repeat:repeat-y;
 }
 
+@media only screen and (max-width: 400px) {
+	body{
+		background:none;
+		height: 100vh;
+	}
+	#canvas{
+		margin: 0;
+		overflow: hidden;
+		width: 100vw !important;
+		height: 100vh;
+	}
+	.sj-book{
+		height: 90vh;
+		width: 100vw;
+	}
+}
